@@ -18,6 +18,9 @@ txt(concat("ms", _a), "v=msv1 t=ebd73c39afd540ae89855c49645b7e")
 cname("cal.ms", "go.domains.live.com.")
 cname("mail.ms", "go.domains.live.com.")
 
+-- CAA configuration
+caa("", "letsencrypt.org", "issuewild")
+
 -- Templates (see templates.lua)
 txt(_a, "google-site-verification=xuaVmLSLRGSxBE6lcF815vZCUs95LfL9bPIiRiW8kSg")
 google_app(_a)
