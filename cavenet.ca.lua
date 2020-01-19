@@ -10,9 +10,9 @@ a("home", "64.180.188.84")
 
 -- CNAME records
 cname("www", _a)
-cname("bastion", concat("home", _a)
-cname("mm01", "home")
-cname("test", "home")
+cname("bastion", concat("home", _a))
+cname("mm01", concat("home", _a))
+cname("test", concat("home", _a))
 
 -- CAA records
 -- caa("", "letsencrypt.org", "issue")
