@@ -10,7 +10,7 @@ a("home", "64.180.188.84")
 
 -- CNAME records
 cname("www", _a)
-cname("bastion", "home")
+cname("bastion", concat("home", _a)
 cname("mm01", "home")
 cname("test", "home")
 
