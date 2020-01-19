@@ -12,6 +12,7 @@ a("home", "64.180.188.84")
 cname("www", _a)
 cname("bastion", "home")
 cname("mm01", "home")
+cname("test", "home")
 
 -- CAA records
 -- caa("", "letsencrypt.org", "issue")
