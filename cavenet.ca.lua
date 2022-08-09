@@ -6,7 +6,6 @@
 
 -- A records
 a("home", "23.16.123.230")
-a("peanut,)
 
 -- CNAME records
 cname("bastion", concat("home", _a))
