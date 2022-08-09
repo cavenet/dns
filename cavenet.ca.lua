@@ -5,7 +5,7 @@
 -- _a = "cavenet.ca"
 
 -- A records
-a("home", "64.180.188.84")
+a("home", "23.16.123.230")
 a("peanut,)
 
 -- CNAME records
